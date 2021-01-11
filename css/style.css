@@ -1,0 +1,297 @@
+ul,ol{
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: 0;
+}
+
+
+.icon{
+    text-align: center;
+    background-color: #38054E;
+   
+}
+.icon ul{
+    display: inline-flex;
+}
+.icon ul li{
+    height: 40px;
+    width: 140px;
+    line-height: 40px;
+    
+}
+.icon ul li a{
+    color: white;
+}
+
+
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+.logo img{
+    width: 270px;
+    padding: 5px;
+}
+.logo{
+    width: 30%;
+    float: left;
+   
+    
+}
+ 
+}
+.menu{
+    width: 70%;
+    float: right;
+  
+}
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding: 15px;
+    margin-top: 5PX;
+}
+
+.menu ul li a{
+  font-size: 20px;
+  color: #F5646C;
+  font-family: "Roboto", Sans-serif;
+ font-size: 20px;
+
+}
+.cls{
+    clear: both;
+    
+}
+.banner{
+    background: url(../image/BANNER\ 05.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1550px;
+}
+.ban_content h1{
+    padding-top:100px ;
+    color: white;
+    font-family: "Roboto", Sans-serif;
+    font-size: 45px;
+    font-weight: 200;  
+}
+.ban_content h2{
+    color: white;
+    font-family: "Roboto", Sans-serif;
+    font-size: 53px;
+    font-weight: 600;
+}
+.ban_content P{
+    color: white;
+}
+.ban_content a button{
+    margin-top: 15px;
+    margin-left: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #00bfa6;
+    border: none;
+    color: white;
+
+}
+.ban_content a button:hover{
+  background-color: blue;
+  display: block;
+}
+.about{
+    margin-top: 10px;
+   
+}
+.about_photo{
+    width: 50%;
+    float: left;
+    box-shadow: black;
+    
+
+}
+.about_photo img{
+    
+    width: 700px;
+    
+    
+    
+    
+}
+
+}
+
+.about_content{
+    width: 50%;
+    float: LEFT;
+}
+.about_content H1{
+    margin-left: 80PX;
+    font-size: 90PX;
+    font-family: "Roboto", Sans-serif;
+}
+.about_content H6{
+    margin-left: 80PX;
+    color: #5ec9ad;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 8.1px;
+}
+.about_content h2{
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-left: 80PX;
+    margin-top: 10px;
+   font-size: 40px;
+}
+.about_content p{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.skill{
+    margin-top: 40px;
+}
+.skill h4{
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 50px;
+}
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content:flex-start;
+    align-items:center ;
+    border-radius: 50px;
+    position:relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    margin-top: 5px;
+}
+.pro-value1{
+    animation: load1 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value5{
+    animation: load5 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+
+.pro-value6{
+    animation: load6 3s normal forwards ;
+    border-radius: 50px;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding:3px;
+    margin-left: 5px;
+}
+
+
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 93%;
+    }
+}
+
+
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+
+@keyframes load5{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes load6{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+
+#about{transition: all 3s;
+}
+
+
+
